@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{D8BDC8ED-1016-45AE-8EE3-06570160EFD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{D8BDC8ED-1016-45AE-8EE3-06570160EFD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{958CBC17-CAB2-4253-A16D-3FF01E43312B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{E586BBF6-2C5D-4916-A3E7-998B8B627346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BD", "BD\BD.csproj", "{CDD92CE9-8507-408B-B072-B7CF899062DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{D8BDC8ED-1016-45AE-8EE3-06570160EFD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8BDC8ED-1016-45AE-8EE3-06570160EFD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8BDC8ED-1016-45AE-8EE3-06570160EFD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958CBC17-CAB2-4253-A16D-3FF01E43312B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958CBC17-CAB2-4253-A16D-3FF01E43312B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958CBC17-CAB2-4253-A16D-3FF01E43312B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958CBC17-CAB2-4253-A16D-3FF01E43312B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E586BBF6-2C5D-4916-A3E7-998B8B627346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E586BBF6-2C5D-4916-A3E7-998B8B627346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E586BBF6-2C5D-4916-A3E7-998B8B627346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E586BBF6-2C5D-4916-A3E7-998B8B627346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD92CE9-8507-408B-B072-B7CF899062DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD92CE9-8507-408B-B072-B7CF899062DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD92CE9-8507-408B-B072-B7CF899062DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD92CE9-8507-408B-B072-B7CF899062DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
